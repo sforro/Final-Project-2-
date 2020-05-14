@@ -1,5 +1,5 @@
 import random
-import os
+import os # change to winsound for windows
 import platform
 import pygame
 import turtle
