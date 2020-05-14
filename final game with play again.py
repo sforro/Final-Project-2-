@@ -4,7 +4,7 @@ import platform
 import pygame
 import turtle
 
-use pygame to play the main music theme
+# use pygame to play the main music theme
 pygame.mixer.music.load("africa.wav")
 pygame.mixer.music.play(loops=-1)
 
