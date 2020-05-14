@@ -1,13 +1,12 @@
 import random
 import os
 import platform
-# import pygame
+import pygame
 import turtle
 
-# use pygame to play the main music theme
-# pygame.init()
-# pygame.mixer.music.load("africa.wav")
-# pygame.mixer.music.play(loops=-1)
+use pygame to play the main music theme
+pygame.mixer.music.load("africa.wav")
+pygame.mixer.music.play(loops=-1)
 
 
 # moved the game inside this function
@@ -359,12 +358,11 @@ def initial_setup():
     wn.register_shape("simpr.gif")
     wn.register_shape("cloudy.gif")
     wn.register_shape("heart.gif")
-    # wn.register_shape("comics.gif") # had to comment bc i dont have this pic so i get an error
+    wn.register_shape("comics.gif")
 
-    # play_sound("africa.wav", 294)
     wn.title("Cloudy with a Chance of Burgers!")
     wn.setup(width=800, height=600)
-    wn.bgpic("cloudy.gif")  # change this back to comics on yours :)
+    wn.bgpic("comics.gif")  
 
     pen.hideturtle()
     pen.shape("square")
